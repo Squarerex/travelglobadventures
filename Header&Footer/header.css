@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #000000;
+    font-size: large;
+    position: relative;
+    font-family: bakbak;
+}
+
+.bakbak-one-regular {
+    font-family: "Bakbak One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.alpha {
+    width: 100%;
+    /*background-image: url(img/cubic.png);
+background-position: 0rem -11rem ;
+background-repeat: no-repeat;
+background-size: 50rem;*/
+    padding: 0;
+    margin: 0;
+    height: 5rem;
+    z-index: 999;
+    color: #000000;
+    position: fixed;
+    display: flex;
+    top: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.alpha-1 {
+    display: flex;
+    width: 100%;
+    /*background-image: linear-gradient(to right, #3c6e71, #353535);*/
+    background-color: white;
+    align-self: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+    padding: 1.5rem 2rem;
+}
+
+.alpha-1 h3 {
+    margin-left: 0;
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+}
+
+.alpha-1 h3 img {
+    display: inline;
+    height: 3rem;
+    margin-top: 0.5rem;
+    margin-bottom: -0.5rem;
+}
+
+/*.alpha-1 h5, .beta h4,.lamda h4, .omega h4, .gamma h4, .theta h2{
+font-family:'Courier New', Courier, monospace;
+}*/
+.menu {
+    font-weight: 500;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 1rem;
+}
+
+.menu span:active,
+.menu span:hover {
+    color: #ff0000;
+}
+
+.alpha-1 button {
+    border-radius: 5px;
+    background-color: grey;
+    color: #3c6e71;
+    padding: 0.2rem 0.6rem;
+    margin-right: 0.5rem;
+    font-size: 0.6rem;
+    cursor: pointer;
+    border: none;
+}
+
+.alpha-1 button:active,
+.alpha-1 button:hover {
+    background-color: #ff0000;
+    color: #00264b;
+}
+
+.alpha-1 span,
+.alpha-1 .spa {
+    margin-right: 0.5rem;
+}
+
+.cur .curr {
+    font-size: small;
+    text-decoration: underline;
+    margin: 0.4rem 0;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.flag {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag img {
+    border-radius: 50%;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-position: center;
+    background-size: cover;
+    background-color: whitesmoke;
+}
+
+.cur {
+    background-color: #f4f4f4;
+    padding: 0.3rem 0.4rem 0.3rem 0.8rem;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.menu a button {
+    padding: 0.5rem;
+    font-size: small;
+    color: white;
+    background-color: #00264b;
+}
+
+.menu span a:hover {
+    color: #ff0000;
+}
+
+.menu a button:hover {
+    background-color: #ff0000;
+    color: white;
+}
+
+.dropbtn,
+.dropdown button {
+    background-color: white;
+    font-size: medium;
+    color: black;
+    padding: 0;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropcont {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 20;
+}
+
+.dropcont a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropcont a:hover {
+    background-color: #ff0000;
+    color: white;
+}
+
+.dropdown:hover .dropcont {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: #ff0000;
+}
+
+a {
+    text-decoration: none;
+    color: initial;
+}

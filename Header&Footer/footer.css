@@ -1,0 +1,123 @@
+footer {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    background-color: white;
+}
+
+.menus {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    font-size: medium;
+    padding: 3rem 2%;
+    overflow: hidden;
+    background-color: white;
+}
+
+.menus .social {
+    width: 24%;
+    padding: 0 2rem 0 2rem;
+    font-size: medium;
+}
+
+.menus .desc {
+    margin-top: 10px;
+    width: 35%;
+    padding: 0 2rem 0 2rem;
+    font-size: medium;
+}
+
+.menus .desc img {
+    display: inline;
+    height: 3rem;
+    margin-top: 0.5rem;
+    margin-bottom: -0.5rem;
+}
+
+.menus .desc p,
+.social .socials {
+    margin-top: 1rem;
+}
+
+.menus ul {
+    list-style: none;
+    width: 14%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 0.5rem;
+    gap: 1rem;
+    font-size: medium;
+}
+
+.menus li {
+    font-size: medium;
+    align-self: center;
+    font-weight: 500;
+    text-align: center;
+}
+
+.menus li:active,
+.menus li:hover {
+    color: #ff0000;
+}
+
+footer .social {
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+}
+
+.social .socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.socials a {
+    height: 2rem;
+    width: 2rem;
+    background-color: #f4f4f4;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    color: #00264b;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .social a:active,
+footer .social a:hover {
+    color: #ff0000;
+}
+
+footer li a:hover,
+footer li a:active {
+    color: #ff0000;
+}
+
+#topo,
+.social h3 {
+    color: #00264b;
+    font-weight: 700;
+    font-size: large;
+}
+
+#topo:hover {
+    color: #00264b;
+}
+
+a {
+    text-decoration: none;
+    color: initial;
+}
