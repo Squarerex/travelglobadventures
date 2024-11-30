@@ -1,0 +1,1163 @@
+.container {
+    min-height: 30rem;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+    padding-top: 3rem;
+}
+
+
+
+/* Hero Widget */
+.hero {
+    width: 100%;
+    height: 25rem;
+    padding: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background-color: #f4f4f4;
+}
+
+.hero1 {
+    width: 50%;
+    max-width: 55%;
+    padding: 0rem 5rem 0rem 5rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero1 h1 {
+    font-size: 3rem;
+    margin-bottom: -0.5rem;
+    color: #00264b;
+}
+
+.hero1 p {
+    color: black;
+    font-size: medium;
+}
+
+.hero1 form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    gap: 0;
+    align-items: center;
+}
+
+.hero1 form .search {
+    width: 75%;
+    padding: 0.85rem 1rem;
+    font-size: medium;
+    outline: none;
+    background-color: #d4d4d4;
+    border: none;
+    box-shadow: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.hero1 form .search:hover,
+.hero1 form .search:active {
+    background-color: white;
+    border: none;
+    outline: none;
+    cursor: text;
+}
+
+.hero1 form .searchbtn {
+    width: 25%;
+    padding: 0.85rem 1.5rem;
+    font-size: medium;
+    cursor: pointer;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #00264b;
+    color: white;
+}
+
+.hero1 form .searchbtn:hover {
+    background-color: #ff0000;
+}
+
+.hero2 {
+    width: 45%;
+    background-color: #00264b;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero2 .button {
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000;
+    cursor: pointer;
+    background: rgb(255, 255, 255, 0.3);
+    width: 36px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    -webkit-box-shadow: 5px 5px 5px -2px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 5px 5px 5px -2px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 5px -2px rgba(0, 0, 0, 0.5);
+}
+
+.hero2 .button:hover {
+    background-color: #ff0000;
+    color: white;
+}
+
+.button span {
+    height: 100%;
+    width: 100%;
+}
+
+.left-arrow {
+    left: 20px;
+}
+
+.right-arrow {
+    right: 20px;
+}
+
+.hero2 .carousel {
+    width: 100%;
+    height: 25rem;
+}
+
+.hero2 .carousel.sliding-transition {
+    transition: transform 0.5s ease-in-out;
+}
+
+.hero2 img {
+    width: 100%;
+    height: 25rem;
+}
+
+
+
+/* Adventure Widget */
+.adv {
+    width: auto;
+    background-color: white;
+    display: flex;
+    padding: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.adv h2 {
+    margin-bottom: -0.5rem;
+    color: #00264b;
+    font-size: 2rem;
+}
+
+.adv p {
+    color: black;
+    font-size: medium;
+}
+
+.adven {
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.adven .abutton {
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000;
+    cursor: pointer;
+    background: rgb(255, 255, 255, 0.3);
+    width: 36px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    -webkit-box-shadow: 5px 5px 5px -2px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 5px 5px 5px -2px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 5px -2px rgba(0, 0, 0, 0.5);
+}
+
+.abutton span {
+    height: 100%;
+    width: 100%;
+}
+
+.aleft-arrow {
+    left: 20px;
+}
+
+.aleft-arrow:hover,
+.aright-arrow:hover {
+    color: white;
+    background-color: #ff0000;
+}
+
+.aright-arrow {
+    right: 20px;
+}
+
+.adv .acarousel {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 15rem;
+    padding-left: 1.5%;
+}
+
+.adv .acarousel.sliding-transition {
+    transition: transform 0.5s ease-in-out;
+}
+
+.adv .acarousel-image {
+    width: 31.5%;
+    display: inline-block;
+    position: relative;
+    align-self: center;
+    height: 15rem;
+    margin-left: 1%;
+    border-radius: 8px;
+}
+
+.adv img {
+    width: 100%;
+    height: 15rem;
+}
+
+.adv .image {
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    margin-left: 1%;
+    border-radius: 8px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 38, 75, 0.7);
+}
+
+.adv .acarousel-image:hover .overlay {
+    opacity: 1;
+}
+
+.adv .text {
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Luxury Widget */
+.luxury {
+    width: auto;
+    background-color: #f4f4f4;
+    padding: 3rem 0;
+    display: flex;
+    padding: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: fit-content;
+}
+
+.luxury h2 {
+    margin-bottom: -0.5rem;
+    font-size: 2rem;
+    color: #00264b;
+}
+
+.luxury p {
+    color: black;
+    font-size: medium;
+}
+
+.luxury .dest {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    gap: 2rem;
+}
+
+.dest1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    margin-top: 3rem;
+    height: 15rem;
+    width: 100%;
+}
+
+.dest1:hover .dest2 {
+    background-color: rgba(0, 38, 75, 0.9);
+}
+
+.dest1:hover .dest2 h3 {
+    color: #ff0000;
+}
+
+.dest1:hover .dest2 p {
+    color: white;
+}
+
+.dest1:hover .dest2 span strong {
+    color: white;
+}
+
+.dest1 img {
+    width: 100%;
+    background-color: #c4c4c4;
+    height: 13rem;
+    min-height: 12rem;
+    max-height: 12rem;
+    border-radius: 10px;
+}
+
+.dest1 .dest2 {
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    gap: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem 1rem 1rem;
+    margin-top: -2rem;
+    height: fit-content;
+}
+
+.dest1 h3 {
+    margin-bottom: -0.5rem;
+    color: #00264b;
+}
+
+.dest1 p {
+    font-size: medium;
+}
+
+.luxury span {
+    color: #ff0000;
+    align-self: flex-end;
+    font-size: small;
+    width: 100%;
+    margin-top: 0.5rem;
+    text-align: right;
+}
+
+.luxury span strong {
+    color: #000;
+}
+
+
+
+/* Trending Cars Widget */
+.trend {
+    width: auto;
+    background-color: white;
+    display: flex;
+    padding: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.trend h2 {
+    margin-bottom: -0.5rem;
+    font-size: 2rem;
+    color: #00264b;
+}
+
+.trend p {
+    color: black;
+    font-size: medium;
+}
+
+.trendin {
+    width: 100%;
+    height: 15rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.trendin .bbutton {
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000;
+    cursor: pointer;
+    background: rgb(255, 255, 255, 0.3);
+    width: 36px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    -webkit-box-shadow: 5px 5px 5px -2px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 5px 5px 5px -2px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 5px -2px rgba(0, 0, 0, 0.5);
+}
+
+.bbutton span {
+    height: 100%;
+    width: 100%;
+}
+
+.bleft-arrow {
+    left: 20px;
+}
+
+.bright-arrow {
+    right: 20px;
+}
+
+.bleft-arrow:hover,
+.bright-arrow:hover {
+    color: white;
+    background-color: #ff0000;
+}
+
+.trend .bcarousel {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 15rem;
+    padding-left: 0.8%;
+}
+
+.trend .bcarousel-image {
+    width: 31.5%;
+    display: inline-block;
+    position: relative;
+    align-self: center;
+    height: 15rem;
+    margin-left: 1%;
+    border-radius: 8px;
+}
+
+.trend .bcarousel.sliding-transition {
+    transition: transform 0.5s ease-in-out;
+}
+
+.trend img {
+    width: 100%;
+    height: 15rem;
+}
+
+.trend .image {
+    display: block;
+}
+
+.trend .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    margin-left: 1%;
+    border-radius: 8px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 38, 75, 0.7);
+}
+
+.trend .bcarousel-image:hover .overlay {
+    opacity: 1;
+}
+
+.trend .text {
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 80%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.trend .text p {
+    color: white;
+    font-size: 1.3rem;
+    width: 100%;
+}
+
+.trend .text p strong {
+    color: #ff0000;
+}
+
+
+/* Spotlight Widget */
+.spot {
+    width: auto;
+    background-color: #f4f4f4;
+    display: flex;
+    padding: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.spot h2 {
+    margin-bottom: -0.5rem;
+    color: #00264b;
+    font-size: 2rem;
+}
+
+.spot p {
+    color: black;
+    font-size: medium;
+}
+
+.spotin {
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.spotin .dbutton {
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000;
+    cursor: pointer;
+    background: rgb(255, 255, 255, 0.3);
+    width: 36px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    -webkit-box-shadow: 5px 5px 5px -2px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 5px 5px 5px -2px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 5px -2px rgba(0, 0, 0, 0.5);
+}
+
+.dbutton span {
+    height: 100%;
+    width: 100%;
+}
+
+.dleft-arrow {
+    left: 20px;
+}
+
+.dright-arrow {
+    right: 20px;
+}
+
+.dright-arrow:hover,
+.dleft-arrow:hover {
+    color: white;
+    background-color: #ff0000;
+}
+
+.spot .dcarousel {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 15rem;
+    padding-left: 1.5%;
+}
+
+.spot .dcarousel-image {
+    width: 31.5%;
+    display: inline-block;
+    position: relative;
+    align-self: center;
+    height: 15rem;
+    margin-left: 1%;
+    border-radius: 8px;
+}
+
+.spot .dcarousel.sliding-transition {
+    transition: transform 0.5s ease-in-out;
+}
+
+.spot .dcarousel-image img {
+    width: 100%;
+    height: 15rem;
+}
+
+.spot .image {
+    display: block;
+}
+
+.spot .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    margin-left: 1%;
+    border-radius: 8px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 38, 75, 0.7);
+}
+
+.spot .dcarousel-image:hover .overlay {
+    opacity: 1;
+}
+
+.spot .text {
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    font-size: 1.3rem;
+    width: 80%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.spot .text strong {
+    color: #ff0000;
+}
+
+
+/* Hundred Widget */
+.hun {
+    width: auto;
+    background-color: #f4f4f4;
+    display: flex;
+    padding: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.hun h2 {
+    margin-bottom: -0.5rem;
+    color: #00264b;
+    font-size: 2rem;
+}
+
+.hun p {
+    color: black;
+    font-size: medium;
+}
+
+.hund {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.hund .cbutton {
+    padding: 0;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    color: #000;
+    cursor: pointer;
+    background: rgb(255, 255, 255, 0.3);
+    width: 36px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    -webkit-box-shadow: 5px 5px 5px -2px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 5px 5px 5px -2px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 5px -2px rgba(0, 0, 0, 0.5);
+}
+
+.cbutton span {
+    height: 100%;
+    width: 100%;
+}
+
+.cleft-arrow {
+    left: 20px;
+}
+
+.cright-arrow {
+    right: 20px;
+}
+
+.cleft-arrow:hover,
+.cright-arrow:hover {
+    color: white;
+    background-color: #ff0000;
+}
+
+.hund .ccarousel {
+    height: 24rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1.5%;
+}
+
+.hun .ccarousel.sliding-transition {
+    transition: transform 0.5s ease-in-out;
+}
+
+.ccarousel-image img {
+    background-color: #d4d4d4;
+    align-self: center;
+    border-radius: 8px;
+    width: 100%;
+    height: 13rem;
+    z-index: 1;
+}
+
+.ccarousel-image {
+    width: 31.5%;
+    display: inline-block;
+    align-self: center;
+    height: 24rem;
+    margin-left: 1%;
+    border-radius: 8px;
+}
+
+.hundre {
+    width: auto;
+    margin-top: -2rem;
+    height: fit-content;
+    display: flex;
+    gap: 0.5rem;
+    background-color: white;
+    border-radius: 0px 0px 8px 8px;
+    z-index: 12;
+    flex-direction: column;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.hundre h3 {
+    margin-bottom: -0.1rem;
+    color: #00264b;
+}
+
+.hundre p {
+    color: #000;
+    font-weight: 700;
+    font-size: large;
+}
+
+.hundre span {
+    color: #ff0000;
+    align-self: flex-end;
+    font-size: small;
+    width: 100%;
+    margin-top: 0.5rem;
+    text-align: left;
+}
+
+.hundre span strong {
+    color: #ff0000;
+    font-size: medium;
+}
+
+.hun .expbtn {
+    background-color: #00264b;
+    color: white;
+    font-size: medium;
+    border: none;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    margin-top: -2rem;
+}
+
+.hun .expbtn:hover {
+    background-color: #ff0000;
+}
+
+/* Promotion Widget */
+.prom {
+    width: auto;
+    background-color: #f4f4f4;
+    display: flex;
+    padding: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.prom h2 {
+    margin-bottom: -0.5rem;
+    color: #00264b;
+}
+
+.prom p {
+    color: black;
+    font-size: medium;
+}
+
+.promo {
+    width: 100%;
+    position: relative;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.prom img {
+    background-color: #d4d4d4;
+    align-self: center;
+    border-radius: 8px;
+    width: 60%;
+    height: 35rem;
+    z-index: 1;
+}
+
+.prom img:hover {
+    opacity: 0.9;
+}
+
+.prombtn {
+    background-color: white;
+    color: #ff0000;
+    font-size: medium;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    z-index: 30;
+    bottom: 9%;
+    padding: 0.5rem 2rem;
+    position: absolute;
+}
+
+.prombtn:hover {
+    background-color: #ff0000;
+    color: white;
+}
+
+
+/* Review Widget */
+.rev {
+    width: auto;
+    background-color: #fff;
+    display: flex;
+    padding: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.rev h2 {
+    margin-bottom: -0.5rem;
+    color: #00264b;
+}
+
+.rev p {
+    color: black;
+    font-size: medium;
+}
+
+.revi {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 2rem;
+    gap: 3rem;
+    overflow: hidden;
+}
+
+.revi1 {
+    background-color: #f4f4f4;
+    padding: 4rem;
+    width: 40%;
+    height: 15rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.revi1 p {
+    color: black;
+}
+
+.revi2 {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.revi img {
+    background-color: #d4d4d4;
+    align-self: center;
+    border-radius: 50%;
+    width: 100%;
+    height: 3rem;
+    align-self: center;
+    width: 3rem;
+    z-index: 1;
+}
+
+.revi3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    height: fit-content;
+}
+
+.revi3 h4 {
+    color: #00264b;
+}
+
+.revi3 p {
+    color: #ff0000;
+}
+
+/* FAQ Widget */
+.faq {
+    width: auto;
+    background-color: #f4f4f4;
+    display: flex;
+    padding: 5rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.faq1 {
+    width: 30%;
+    padding: 0;
+    height: 25rem;
+}
+
+.faq1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.faq2 {
+    width: 70%;
+    display: flex;
+    height: 25rem;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 4rem;
+}
+
+.faq h2 {
+    margin-bottom: 1rem;
+    color: #00264b;
+    font-size: 2rem;
+}
+
+.faq .ques {
+    background-color: #fff;
+    font-size: medium;
+    display: flex;
+    padding: 0;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.faq .ques span {
+    color: #00264b;
+}
+
+.ques .quest {
+    padding: 1rem;
+}
+
+.faq .ques .quest:hover .ques strong span {
+    color: white;
+}
+
+.ques .ans1,
+.ques .ans,
+.ques .ans2 {
+    color: #000;
+    padding: 0 1rem 1rem 1rem;
+}
+
+
+
+.faq strong {
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.faq .hide {
+    display: none;
+}
+
+.faq .show {
+    display: block;
+}
+
+.plus,
+.minus,
+.plus1,
+.minus1,
+.plus2,
+.minus2 {
+    font-weight: 900;
+    padding: 2px 5px;
+    color: #ff0000;
+    cursor: pointer;
+}
+
+.ques:hover,
+.ques:active {
+    background-color: #ff0000;
+    color: white;
+}
+
+.faq .ques:hover span {
+    color: white;
+}
+
+.faq .ques:hover .ans,
+.faq .ques:hover .ans1,
+.faq .ques:hover .ans2 {
+    color: white;
+}
+
+
+/* Need More Widget */
+.more {
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 5rem 0 5rem;
+}
+
+.need {
+    background-color: #00264b;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.need1 {
+    width: 85%;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+
+.need2 button {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    color: black;
+    border: none;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.need2 button:hover {
+    color: white;
+    background-color: #ff0000;
+}
+
+.need2 {
+    width: 15%;
+    padding: 5px 0;
+}
+
+button {
+    cursor: pointer;
+}
